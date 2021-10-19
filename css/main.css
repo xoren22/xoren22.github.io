@@ -267,8 +267,11 @@ nav li a:hover {
 }
 
 .links {
-  cursor: pointer;
   text-align: center;
+}
+
+.links li a:hover {
+  font-weight: bold;
 }
 
 .links .lk-li {
@@ -305,7 +308,6 @@ nav li a:hover {
   padding: 0.1em 0.1em;
   font-size: 1.4em;
   border-radius: 5em;
-  font-weight: bold;
   display: inline-block;
 }
 
@@ -319,7 +321,6 @@ nav li a:hover {
   padding: 0.1em 0.1em;
   font-size: 1.4em;
   border-radius: 5em;
-  font-weight: bold;
   display: inline-block;
 }
 
@@ -333,7 +334,6 @@ nav li a:hover {
   padding: 0.1em 0.1em;
   font-size: 1.4em;
   border-radius: 5em;
-  font-weight: bold;
   display: inline-block;
 }
 
@@ -347,7 +347,6 @@ nav li a:hover {
   padding: 0.1em 0.1em;
   font-size: 1.4em;
   border-radius: 5em;
-  font-weight: bold;
   display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
