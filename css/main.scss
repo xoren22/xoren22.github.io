@@ -180,7 +180,9 @@ nav {
     }
 
     .my_img {
-        width: 30%;
+        width:auto;
+        height:auto;
+        max-width: 100%;
         margin-right: 8em;
         border-radius: 10%;
     }
@@ -270,4 +272,105 @@ nav {
             top: 2em;
         }
     }
+}
+
+
+.head {
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 2em;
+    background: #F2F2F2;
+    font-family: 'Poppins';
+}
+
+.links{
+    cursor: pointer;
+    text-align: center;
+
+    .lk-li{
+        list-style-type: none;
+        background: var(--primery-color);
+        padding: 1.5em 0.2em 0.2em 0.2em;
+    }
+
+    .gh-li{
+        list-style-type: none;
+        background: var(--primery-color);
+        padding: 0.2em 0.2em 0.2em 0.2em;
+    }
+
+    .tw-li{
+        list-style-type: none;
+        background: var(--primery-color);
+        padding: 0.2em 0.2em 0.2em 0.2em;
+    }
+
+    .em-li{
+        list-style-type: none;
+        background: var(--primery-color);
+        padding: 0.2em 0.2em 0.2em 0.2em;
+    }
+
+    .linkedin {
+        text-align: center;
+        font-family: 'Poppins';
+        color: white;
+        background-color: #007AF3;
+        width: 16em;
+        text-decoration: none;
+        padding: 0.1em 0.1em;
+        font-size: 1.4em;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .github {
+        
+        text-align: center;
+        font-family: 'Poppins';
+        color: white;
+        background-color: #007AF3;
+        width: 16em;
+        text-decoration: none;
+        padding: 0.1em 0.1em;
+        font-size: 1.4em;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .twitter {
+        
+        text-align: center;
+        font-family: 'Poppins';
+        color: white;
+        background-color: #007AF3;
+        width: 16em;
+        text-decoration: none;
+        padding: 0.1em 0.1em;
+        font-size: 1.4em;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .email {
+        
+        text-align: center;
+        font-family: 'Poppins';
+        color: white;
+        background-color: #007AF3;
+        width: 16em;
+        text-decoration: none;
+        padding: 0.1em 0.1em;
+        font-size: 1.4em;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+
+
 }

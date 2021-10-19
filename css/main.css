@@ -173,7 +173,9 @@ nav li a:hover {
     text-align: center;
   }
   .my_img {
-    width: 30%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
     margin-right: 8em;
     border-radius: 10%;
   }
@@ -253,5 +255,99 @@ nav li a:hover {
     left: 4.5em;
     top: 2em;
   }
+}
+
+.head {
+  margin: auto;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 2em;
+  background: #F2F2F2;
+  font-family: 'Poppins';
+}
+
+.links {
+  cursor: pointer;
+  text-align: center;
+}
+
+.links .lk-li {
+  list-style-type: none;
+  background: var(--primery-color);
+  padding: 1.5em 0.2em 0.2em 0.2em;
+}
+
+.links .gh-li {
+  list-style-type: none;
+  background: var(--primery-color);
+  padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.links .tw-li {
+  list-style-type: none;
+  background: var(--primery-color);
+  padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.links .em-li {
+  list-style-type: none;
+  background: var(--primery-color);
+  padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.links .linkedin {
+  text-align: center;
+  font-family: 'Poppins';
+  color: white;
+  background-color: #007AF3;
+  width: 16em;
+  text-decoration: none;
+  padding: 0.1em 0.1em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.links .github {
+  text-align: center;
+  font-family: 'Poppins';
+  color: white;
+  background-color: #007AF3;
+  width: 16em;
+  text-decoration: none;
+  padding: 0.1em 0.1em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.links .twitter {
+  text-align: center;
+  font-family: 'Poppins';
+  color: white;
+  background-color: #007AF3;
+  width: 16em;
+  text-decoration: none;
+  padding: 0.1em 0.1em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.links .email {
+  text-align: center;
+  font-family: 'Poppins';
+  color: white;
+  background-color: #007AF3;
+  width: 16em;
+  text-decoration: none;
+  padding: 0.1em 0.1em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
